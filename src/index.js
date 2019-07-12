@@ -16,7 +16,6 @@ function getEverything() {
 
 function addAllEventListeners() {
 
-
 addBtn.addEventListener('click', () => {
   // hide & seek with the form
   addToy = !addToy
@@ -34,7 +33,6 @@ toyForm.addEventListener('submit', (event) => {
   let newImage = event.target.image.value
 
   addToyToCollection(newName, newImage)
-
 })
 
 toyCollection.addEventListener('click', (event) => {
